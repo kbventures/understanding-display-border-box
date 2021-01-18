@@ -1,0 +1,63 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-size: 40px;
+}
+
+/* html {
+    box-sizing: border-box;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+  } */
+
+/* 
+  
+  In Chrome Dev Tool we see the box model and the content dimensions
+  We can change content dimeasions with HEIGHT AND WIDTH
+
+
+  */
+
+.box-zero {
+  background-color: #2d9cdb;
+  border: 0 solid #9b51e0;
+}
+
+.box-zero-point-one {
+  background-color: #eb5757;
+  border: 0 solid #9b51e0;
+  padding: 20px;
+  border: 20px solid #9b51e0;
+  margin: 20px;
+}
+
+.box-one {
+  background-color: #eb5757;
+  padding: 10px;
+  border: 30px solid #9b51e0;
+  margin: 100px;
+  height: 80px;
+  width: 80px;
+}
+
+.box-two {
+  background-color: #2d9cdb;
+  border: 30px solid #9b51e0;
+  padding: 10px;
+  margin: 60px;
+  height: 100px;
+  width: 100px;
+}
+
+/* 
+Default box model: margin collapses when next to other elements.
+Ie: they share the one with the largest margin.
+
+Default box model, calculating height/width of box includes
+Height/Width, padding and border * 2(assuming they are the same);
+Margin doesn't account into the size of an element.
+*/
