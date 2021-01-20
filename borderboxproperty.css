@@ -27,15 +27,16 @@
   border: 0 solid #9b51e0;
 }
 
-.box-zero-point-one {
+.box-one-display-default {
   background-color: #eb5757;
-  border: 0 solid #9b51e0;
-  padding: 20px;
-  border: 20px solid #9b51e0;
-  margin: 20px;
+  padding: 10px;
+  border: 30px solid #9b51e0;
+  margin: 100px;
+  height: 80px;
+  width: 80px;
 }
 
-.box-one {
+.box-one-display-property-border-box {
   background-color: #eb5757;
   padding: 10px;
   border: 30px solid #9b51e0;
